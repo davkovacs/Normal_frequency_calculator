@@ -160,8 +160,9 @@ freq_1_H=1/2/np.pi/2.998e10*(eigvals[0]/0.5/m_u)**0.5   #calculate the normal mo
 freq_2_H=1/2/np.pi/2.998e10*(eigvals[1]/2/m_u)**0.5
 
 print("Hessian method")
-print("The vibrational frequency of the first normal mode is approximately: "+str(round(freq_1_H,1))+" cm-1")
-print("The vibrational frequency of the second normal mode is approximately: "+str(round(freq_2_H,1))+" cm-1")
+print("The vibrational frequency of the first normal mode is approximately: "+str(round(freq_2_H,1))+" cm-1")
+print("The vibrational frequency of the second normal mode is approximately: "+str(round(freq_1_H,1))+" cm-1")
+
 
 
 
